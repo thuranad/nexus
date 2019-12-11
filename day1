@@ -1,0 +1,61 @@
+#Python beginners stuff. Brought to you by bees. 
+
+#Objects: Basically containers for something. You add value to them as they're used for storage. Imagine a lunchbox. 
+#Let's assign a value to an object. How about bees? Bees are fun. 
+
+number_of_bees = 100
+
+#Let's look at data types now. Integers are whole number values. Floats are decimal value types. Strings are a sequence of characters.
+#Let's try assigning values to these now. 
+
+my_beeswarm = 40
+my_pollencount = 30.85
+my_beehive = "Mount Beeverest." 
+
+#Time to print things to the screen. 
+#Let's think of something memorable...
+
+print("Oh my god they're in my eyes!")
+
+#So what about printing integers and strings on the same call? Well for that we use f0strings. It'll take care of data types.
+
+name = Beevis
+my_integer = 3
+print(f"{name} is {my_integer} years old.")
+
+#Now for math. I hate math. But math is important to bees so we'll just have to learn it. Good thing is that math is REALLY easy in python.
+
+a = 5
+b = 7
+number_of_bees = a + b
+number_of_flowers = a * b
+number_of_hives = a / b
+
+#Time for User Input. What if someone wanted to input their own data values instead? 
+#What if those values are strings that have outputs depending on if/else?
+#In this next one we're asking the user what kind of bees they are and saying a thing depending on the answer. 
+
+bee_type = input("Are those European or Africanised honey bees I see? ")
+its_fine = "Ohhh cool. Safe bro. "
+its_not_fine = "Get away from those now bro. "
+ 
+if bee_type == "European":
+    print(its_fine)
+
+if bee_type == "Africanised":
+    print(its_not_fine.upper())
+
+else:
+    print("That isn't a bee that can be found here. ")
+
+
+
+#Now it's time for lists. It's basically what it says on the tin, a series of items grouped together. 
+
+bees = ["African", "European", "Asian, "Hybrid"] 
+
+#So how do we get the data OUT of a list? 
+
+bees = ["African", "European", "Asian, "Hybrid"] 
+
+
