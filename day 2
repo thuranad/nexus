@@ -1,0 +1,41 @@
+#Time to start looking at returning items by list index. 
+
+#So how do we get the data OUT of a list? 
+
+bees = ["African", "European", "Asian, "Hybrid"] 
+
+#Each index(pos) has a number. If you start counting in Python, you count at 0 because it's "zero indexed". 
+#To get the return of the item by list index, we but the name of the object followed by square brackets. Just so:
+
+bees[1] 
+#This would list EU bees. 
+
+bees[2] 
+#This would list Asian. 
+
+#We always use the [-1] expression in order to list the very LAST one in the list, regardless of list length. 
+bees[-1]
+
+#So how to we add and remove items from a list then? Well, we use the .remove and .append methods. Chekc it out:
+
+bees.remove('African')
+bees.append('bumblebee')
+
+
+
+#How do we store a bunch of things in a group? Let's create to find out:
+
+beehive = {'Honeypot1': 145, 'Honeypot2': 143, 'Honeypot3': 165, 'Honeypot4': 174}
+#The {} brackets tell the code we're dealing with a dict, or dictionary. 
+#This group has strings and integers in it, instead of treating the entire thing as a string or collection of strings. 
+#The numbers we have next to the Honeypots are basically integers in the code because we don't have quotes around them. 
+#The method for a dict is key, colon, value. So in this case Honeypot, :, number. 
+#The name for the key/value pair is called an "item". 
+
+#So lets call the items in our dict hmm?
+
+beehive = {'Honeypot1': 145, 'Honeypot2': 143, 'Honeypot3': 165, 'Honeypot4': 174}
+beehive.items()
+#Running this in IDLE shell will actually have this as an output:
+
+dict_items([('Honeypot1', 145), ('Honeypot2', 143), ('Honeypot3', 165), ('Honeypot4', 174)])
